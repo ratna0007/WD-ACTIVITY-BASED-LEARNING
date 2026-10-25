@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8f0;
+    color: #51352b;
+}
+
+header {
+    background: #7b3f35;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd6a5;
+}
+
+.banner {
+    background: #f7d9c4;
+    text-align: center;
+    padding: 65px 15px;
+}
+
+.banner h2 {
+    font-size: 32px;
+}
+
+.btn {
+    display: inline-block;
+    background: #7b3f35;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    width: 230px;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #e3c9bb;
+}
+
+.product img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product h4 {
+    color: #b84b35;
+    font-size: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.offers {
+    background: #ffe5b4;
+    color: #7b3f35;
+}
+
+#contact {
+    background: #f5e5da;
+}
+
+footer {
+    background: #7b3f35;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .product {
+        width: 90%;
+    }
+
+    .gallery img {
+        width: 90%;
+    }
+}

@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background: #087f8c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.welcome {
+    background: #d7f5f2;
+    text-align: center;
+    padding: 35px;
+}
+
+section {
+    padding: 25px;
+    text-align: center;
+}
+
+.doctors {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.doctor {
+    background: white;
+    border: 2px solid #087f8c;
+    border-radius: 10px;
+    padding: 15px;
+    width: 220px;
+    box-shadow: 0 3px 8px #ccc;
+}
+
+form {
+    background: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #087f8c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #055b63;
+}
+
+footer {
+    background: #087f8c;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .doctors {
+        flex-direction: column;
+        align-items: center;
+    }
+}
